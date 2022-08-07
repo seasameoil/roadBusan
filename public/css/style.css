@@ -7,6 +7,7 @@ body {
     position: absolute;
     margin-left: 20vw;
     margin-top: 25vh;
+    z-index: 1;
     
   }
   #logo_move{
@@ -22,14 +23,14 @@ body {
     background-repeat : no-repeat;
     background-size : cover;
     filter:blur(5px);
+    z-index: -1;
   }
 
   #map{
-    animation-delay: 2s;
     position: relative;
-    margin-left: 30vw;
+    margin-left: 25vw;
     margin-top: 15vh;
-    width: 40vw;
+    width: 50vw;
     height: auto;
-    animation: fadein 3s;
+    animation-delay: 3s;
   }
