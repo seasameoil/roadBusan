@@ -1,1 +1,9 @@
-부산의 관광명소를 소개하는 로드뷰산 ㅇㅅㅇb
+#roadBusan
+
+##downloads
+npm install express --save
+(npm install supervisor -g)
+
+##how to start
+node app.js
+supervisor app.js

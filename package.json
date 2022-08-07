@@ -1,0 +1,23 @@
+{
+  "name": "roadbusan",
+  "version": "1.0.0",
+  "description": "부산의 관광명소를 소개하는 로드뷰산 ㅇㅅㅇb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seasameoil/roadBusan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seasameoil/roadBusan/issues"
+  },
+  "homepage": "https://github.com/seasameoil/roadBusan#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security"
+  }
+}
