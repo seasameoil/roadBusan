@@ -2,24 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>로드뷰산</title>
   </head>
   <body>
-    <div id="map" style="width: 500px; height: 400px"></div>
-    <script
+    <img src = "image/background.jpg" id="background">
+    <img src = "image/roadbusan1.png" id="logo" style="width: 60vw; height: 50vh;">
+    <script id="logo_move">
+      $("#logo").animate({
+    width: "12vw",
+    height: "10vh",
+    marginLeft:"3vw",
+    marginTop:"5vh"}
+    ,1500);
+    </script>
+    <!-- <script
       type="text/javascript"
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	b11350e62dc8426b36de65e17fc7b3b5"
     ></script>
     <script>
       var container = document.getElementById("map");
       var options = {
-        center: new kakao.maps.LatLng(33.450701, 126.570667),
+        center: new kakao.maps.LatLng(35.17944, 129.07556),
         level: 3,
       };
-
       var map = new kakao.maps.Map(container, options);
-    </script>
-    <p>RoadBusan testing...</p>
+    </script> -->
   </body>
-</html>
+</html> 
