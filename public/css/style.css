@@ -34,3 +34,16 @@ body {
     height: auto;
     animation-delay: 3s;
   }
+
+  .form-select{
+    text-align: center;
+    width: 7vw;
+    height: auto;
+    min-width: 70px;
+    margin-left: 20vw;
+    font-size: 20px;
+    border: 1px solid #9B51E0;
+    outline: 3px solid #F8E4FF;
+    color:coral
+
+  }
