@@ -29,7 +29,7 @@ body {
   #map{
     position: relative;
     margin-left: 25vw;
-    margin-top: 15vh;
+    margin-top: auto;
     width: 50vw;
     height: auto;
     animation-delay: 3s;
@@ -45,5 +45,4 @@ body {
     border: 1px solid #9B51E0;
     outline: 3px solid #F8E4FF;
     color:coral
-
   }
