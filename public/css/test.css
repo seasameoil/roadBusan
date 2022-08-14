@@ -1,0 +1,92 @@
+/* 폰트 */
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html > body {
+    font-family:"GmarketSansMedium";
+  }
+  
+  /* lib */
+  .con {
+    width:var(--site-width);
+  }
+  
+  .con-min-width {
+    min-width:var(--site-width);
+  }
+  
+  /* custom */
+  body {
+    background-color:#afafaf;
+  }
+  
+  :root {
+    --site-width:1080px;
+  }
+  
+  .top-bar {
+    height:80px;
+    border-bottom:1px solid #454545;
+    background-color:white;
+  }
+  
+  .menu-1 > ul > li > a {
+    position:relative;
+  }
+  
+  .menu-1 > ul > li > a::after {
+    content:"";
+    position:absolute;
+    bottom:-1px;
+    left:0;
+    width:0%;
+    height:2px;
+    background-color:red;
+    transition:width 0.3s;
+  }
+  
+  .menu-1 > ul > li:hover > a::after {
+    width:100%;
+  }
+  
+  .menu-1 ul > li > a:hover {
+    text-decoration:underline;
+  }
+  
+  .menu-1 > ul > li > a {
+    height:100%;
+    display:flex;
+    align-items:center;
+    padding:0 30px;
+  }
+  
+  .menu-1 > ul > li > div {
+    position:absolute;
+    display:none;
+    left:0;
+    width:100%;
+    transform:translateY(1px);
+    background-color:white;
+    padding-bottom:50px;
+  }
+  
+  .menu-1 > ul > li:hover > div {
+    display:block;
+  }
+  
+  .menu-1 > ul > li > div > div ul > li > a {
+    display:block;
+    text-align:center;
+  }
+  
+  .menu-1 > ul > li > div > div > ul > li > a {
+    padding:20px 0;
+  }
+  
+  .menu-1 > ul > li > div > div > ul > li > ul > li > a {
+    padding:10px 0;
+  }
