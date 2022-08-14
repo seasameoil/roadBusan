@@ -51,7 +51,5 @@ w_trail.get('/Gangseo-gu', (req, res) => {
   w_trail.get('/Suyeong-gu', (req, res) => {
     res.send("수영구 산책로 페이지 입니다.")
   })
-  
-  
 
 module.exports = w_trail;
