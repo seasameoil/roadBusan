@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/seasameoil/roadBusan#readme",
   "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "request": "^2.88.2"
   }
 }
