@@ -4,49 +4,79 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../public/css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <title>로드뷰산</title>
   </head>   
   <body>
+    <header class="top-bar con-min-width">
+      <div class="con mx-auto flex h-full">
+        <a href="#" class="logo flex items-center">
+          <img src="../public/image/roadbusan2.png" alt="">
+        </a>
+        <div class="flex-grow"></div>
+        <nav class="menu-1">
+          <ul class="flex h-full">
+            <li>
+              <a href="#">지역</a>
+              <div class="con-min-width">
+                <div class="con mx-auto">
+                  <ul class="flex">
+                    <li class="flex-1">
+                      <a href="#">강서구</a>
+                      <a href="#">사상구</a>
+                    </li>
+                    <li class="flex-1">
+                      <a href="#">수영구</a>
+                      <a href="#">부산진구</a>
+                    </li>
+                    <li class="flex-1">
+                      <a href="#">금정구</a>
+                      <a href="#">동래구</a>
+                    </li>
+                    <li class="flex-1">
+                      <a href="#">연제구</a>
+                      <a href="#">서구</a>
+                    </li>
+                    <li class="flex-1">
+                      <a href="#">동구</a>
+                      <a href="#">영도구</a>
+                    </li>
+                    <li class="flex-1">
+                      <a href="#">중구</a>
+                      <a href="#">남구</a>
+                    </li>
+                    <li class="flex-1">
+                      <a href="#">해운대구</a>
+                      <a href="#">사하구</a>
+                    </li>
+                    <li class="flex-1">
+                      <a href="#">북구</a>>
+                      <a href="#">기장군</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#">액티비티</a>
+            </li>
+            <li>
+              <a href="#">산책로</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <img src = "image/background.jpg" id="background">
-    <img src = "image/roadbusan1.png" id="logo" style="width: 60vw; height: 50vh;">
+    <img src = "image/roadbusan1.png" id="logo" style="width: 60vw; height:50vh;">
     <script id="logo_move">
       $("#logo").animate({
-    width: "12vw",
-    height: "10vh",
+    width: "10vw",
+    height: "7vh",
     marginLeft:"3vw",
-    marginTop:"5vh"}
+    marginTop:"-8vh"}
     ,1500);
     </script>
-    <div>
-      <select class="form-select">
-        <option selected>지역</option>
-        <option value="1">중구</option>
-        <option value="2">서구</option>
-        <option value="3">동구</option>
-        <option value="4">영도구</option>
-        <option value="5">부산진구</option>
-        <option value="6">동래구</option>
-        <option value="7">남구</option>
-        <option value="8">북구</option>
-        <option value="9">해운대구</option>
-        <option value="10">사하구</option>
-        <option value="11">금정구</option>
-        <option value="12">강서구</option>
-        <option value="13">연제구</option>
-        <option value="14">수영구</option>
-        <option value="15">사상구</option>
-        <option value="16">기장군</option>
-      </select>
-      <select class="form-select">
-        <option selected>액티비티</option>
-      </select>
-      <select class="form-select">
-        <option selected>산책로</option>
-      </select>
-    </div>
     <img src ="image/map.png" id="map">
     <!-- <script
       type="text/javascript"
