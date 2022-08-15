@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
+    <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
     <title>로드뷰산</title>
   </head>   
@@ -82,12 +83,12 @@
     </script>
     <script>
       $(function(){
-        $('img[usemap]').rwdImageMaps();
-        $("#img").width("100%");
+        $('.map').rwdImageMaps();
+        $('.map').maphilight({ strokeWidth: 0, fillColor: "00b050", fillOpacity: 0.4, singleSelect: true });
       });
       </script>
     </script>
-    <img src="image/map.png" usemap="#image-map" id="map">
+    <img src="image/map.png" usemap="#image-map" class="map">
   <map name="image-map">
         <area target="_self" alt="강서구" title="강서구" href="../public/html/gangseo-gu.html" coords="64,225,62,232,75,246,89,249,90,256,98,268,92,275,85,276,84,289,61,303,57,326,79,373,83,378,99,380,109,363,113,344,113,310,145,316,151,312,157,304,158,288,159,279,166,264,172,257,179,251,182,221,186,212,187,204,198,190,206,176,207,158,181,164,163,165,154,174,147,169,140,175,127,175,119,184,118,191,126,198,126,210,117,210,125,220,120,232,113,226,115,220,108,218,103,223,94,226,85,227" shape="poly">
         <area target="_self" alt="사하구" title="사하구" href="../public/html/saha-gu.html" coords="179,278,170,285,161,287,163,275,173,258,181,255,187,259,197,261,203,253,208,253,213,261,220,267,218,273,222,278,222,291,216,300,219,308,221,316,215,319,209,319,201,310,197,314,201,318,196,334,187,329,189,322,184,319,183,307,179,301,180,289,183,283" shape="poly">
