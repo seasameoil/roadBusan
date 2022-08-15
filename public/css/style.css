@@ -16,7 +16,7 @@ body {
     width: 10vw;
     height: 8vh;
     margin-left: -20vw;
-    margin-top: -6px;
+    margin-top: 0.5vh;
   }
   #logo_move{
     margin-left: 0;
@@ -124,7 +124,7 @@ body {
 }
 
 .top-bar {
-  height: 80px;
+  height: 90px;
   border-bottom:1px solid #454545;
   background-color:white;
 }
@@ -197,21 +197,34 @@ body {
   color: white;
   font-weight: 500;
 }
+.forest{
+  width: 300px;
+  height: 258px;
+  margin-right:20px;
+}
 
-.whitearea_walk{
-  height: 2000px;
-  border-bottom:2px solid gray;
+.whitearea_map{
+  height: 800px;
   background-color: white;
 }
 
+.whitearea_walk{
+  height: 400px;
+  display: flex;
+  background-color: white;
+  border-bottom:2px solid gray;
+  justify-content: center;
+}
+
 .whitearea_food{
-  height: 1200px;
+  height: 600px;
   border-bottom:2px solid gray;
   background-color: white;
 }
 
 .whitearea_activity{
-  height: 1200px;
+  height: 600px;
   border-bottom:2px solid gray;
   background-color: white;
 }
+
