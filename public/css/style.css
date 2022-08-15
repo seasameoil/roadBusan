@@ -10,6 +10,14 @@ body {
     margin-left: 30vw;
     margin-top: 25vh;
   }
+
+  #logo_sub{
+    position: absolute;
+    width: 10vw;
+    height: 8vh;
+    margin-left: -20vw;
+    margin-top: -6px;
+  }
   #logo_move{
     margin-left: 0;
     margin-top: 0;
@@ -179,4 +187,31 @@ body {
 
 .menu-1 > ul > li > div > div > ul > li > ul > li > a {
   padding: 10px 0;
+}
+
+.subject_text{
+  padding-top: 8vh;
+  height: 25vh;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  font-weight: 500;
+}
+
+.whitearea_walk{
+  height: 2000px;
+  border-bottom:2px solid gray;
+  background-color: white;
+}
+
+.whitearea_food{
+  height: 1200px;
+  border-bottom:2px solid gray;
+  background-color: white;
+}
+
+.whitearea_activity{
+  height: 1200px;
+  border-bottom:2px solid gray;
+  background-color: white;
 }
