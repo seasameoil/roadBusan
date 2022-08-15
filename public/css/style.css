@@ -35,6 +35,10 @@ body {
     animation-delay: 3s;
   }
 
+  .aa:hover{
+     color: yellow;
+  }
+
   .form-select{
     text-align: center;
     width: 7vw;
