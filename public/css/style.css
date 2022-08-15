@@ -5,10 +5,18 @@ body {
 
   #logo {
     position: absolute;
-    margin-left: 20vw;
+    width: 50vw;
+    height: 40vh;
+    margin-left: 30vw;
     margin-top: 25vh;
-    z-index: 1;
-    
+  }
+
+  #logo_sub{
+    position: absolute;
+    width: 10vw;
+    height: 8vh;
+    margin-left: -20vw;
+    margin-top: 0.5vh;
   }
   #logo_move{
     margin-left: 0;
@@ -33,6 +41,11 @@ body {
     width: 50vw;
     height: auto;
     animation-delay: 3s;
+    display: inline-block;
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
   }
 
   .aa:hover{
@@ -51,13 +64,6 @@ body {
     color:coral
   }
 
-  #map{
-    display: inline-block;
-    animation: fadein 3s;
-  -moz-animation: fadein 3s; /* Firefox */
-  -webkit-animation: fadein 3s; /* Safari and Chrome */
-  -o-animation: fadein 3s; /* Opera */
-  }
 
   @keyframes fadein {
     from {
@@ -122,11 +128,14 @@ body {
 }
 
 .top-bar {
-  height:80px;
+  height: 90px;
   border-bottom:1px solid #454545;
   background-color:white;
 }
 
+.menu-1 {
+  z-index: 1;
+}
 .menu-1 > ul > li > a {
   position:relative;
 }
@@ -146,7 +155,7 @@ body {
   width:100%;
 }
 
-.menu-1 > ul > li > a:hover {
+.menu-1 ul > li > a:hover {
   text-decoration:underline;
 }
 
@@ -159,7 +168,7 @@ body {
 
 .menu-1 > ul > li > div {
   position:absolute;
-  display:fixed;
+  display:none;
   left:0;
   width:100%;
   transform:translateY(1px);
@@ -171,15 +180,55 @@ body {
   display:block;
 }
 
-.menu-1 > ul > li > div > div > ul > li > a {
+.menu-1 > ul > li > div > div ul > li > a {
   display:block;
   text-align:center;
 }
 
 .menu-1 > ul > li > div > div > ul > li > a {
-  padding:20px 0;
+  padding: 20px 0;
 }
 
-.menu-1 > ul > li > div > div > ul > li > a {
-  padding:10px 0;
+.menu-1 > ul > li > div > div > ul > li > ul > li > a {
+  padding: 10px 0;
 }
+
+.subject_text{
+  padding-top: 8vh;
+  height: 25vh;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  font-weight: 500;
+}
+.forest{
+  width: 300px;
+  height: 258px;
+  margin-right:20px;
+}
+
+.whitearea_map{
+  height: 800px;
+  background-color: white;
+}
+
+.whitearea_walk{
+  height: 400px;
+  display: flex;
+  background-color: white;
+  border-bottom:2px solid gray;
+  justify-content: center;
+}
+
+.whitearea_food{
+  height: 600px;
+  border-bottom:2px solid gray;
+  background-color: white;
+}
+
+.whitearea_activity{
+  height: 600px;
+  border-bottom:2px solid gray;
+  background-color: white;
+}
+
