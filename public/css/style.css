@@ -48,6 +48,10 @@ body {
     -o-animation: fadein 3s; /* Opera */
   }
 
+  .aa:hover{
+     color: yellow;
+  }
+
   .form-select{
     text-align: center;
     width: 7vw;
