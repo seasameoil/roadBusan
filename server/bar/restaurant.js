@@ -16,16 +16,16 @@ app.get("/data", async (req, res) => {
   console.log(req.body); */
 
   var url =
-    "https://openapi.naver.com/v1/search/blog?display=3&start=1&sort=sim&query=" +
+    "https://openapi.naver.com/v1/search/local.json?display=3&start=1&sort=random&query=" +
     encodeURI(req.query.query);
   //URL 확인
-  //console.log("==============================\n" + url);
+  console.log("==============================\n" + url);
 
   var options = {
     url: url,
     headers: {
-      "X-Naver-Client-Id": process.env.CLIENT_ID,
-      "X-Naver-Client-Secret": process.env.CLIENT_SECRET,
+      "X-Naver-Client-Id": process.env.NAVER_CLIENT_ID,
+      "X-Naver-Client-Secret": process.env.NAVER_CLIENT_SECRET,
     },
   };
 
