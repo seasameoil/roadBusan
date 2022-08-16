@@ -34,24 +34,22 @@ body {
     z-index: -1;
   }
 
+
+  #mapdiv{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   #map{
-    position: relative;
-    margin-left: 25vw;
-    margin-top: auto;
-    width: 50vw;
-    height: auto;
     animation-delay: 3s;
-    display: inline-block;
     animation: fadein 3s;
     -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
   }
-
-  .aa:hover{
-     color: yellow;
-  }
-
+  
   .form-select{
     text-align: center;
     width: 7vw;
