@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 
 dotenv.config();
 
-app.get("/data", async (req, res) => {
+app.get("/restaurant", async (req, res) => {
   //파라미터 확인
   /*const { query } = req.body;
   console.log(req.body); */
