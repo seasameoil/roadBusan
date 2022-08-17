@@ -25,8 +25,8 @@ $(function () {
     singleSelect: true,
   });
 });
-{
-  /* <script>
+
+/* <script>
       type="text/javascript"
       src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	b11350e62dc8426b36de65e17fc7b3b5"
     </script>
@@ -38,4 +38,3 @@ $(function () {
       };
       var map = new kakao.maps.Map(container, options);
     </script> 카카오맵 API 주석처리 */
-}
