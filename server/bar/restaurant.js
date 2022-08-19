@@ -16,10 +16,10 @@ app.get("/restaurant", async (req, res) => {
   console.log(req.body); */
 
   var url =
-    "https://openapi.naver.com/v1/search/local.json?display=3&start=1&sort=random&query=" +
+    "https://openapi.naver.com/v1/search/local.json?display=5&start=1&sort=random&query=" +
     encodeURI(req.query.query);
   //URL 확인
-  console.log("==============================\n" + url);
+  //console.log("==============================\n" + url);
 
   var options = {
     url: url,
