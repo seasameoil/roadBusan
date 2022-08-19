@@ -176,18 +176,31 @@ body {
   height: 400px;
   display: flex;
   background-color: white;
-  border-bottom: 2px solid gray;
   justify-content: center;
 }
 
 .whitearea_food {
   height: 600px;
-  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
   background-color: white;
+}
+
+#food_subject {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
 }
 
 .whitearea_activity {
   height: 600px;
-  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
   background-color: white;
+}
+
+#activity_subject {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 700;
 }
