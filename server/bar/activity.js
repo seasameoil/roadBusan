@@ -12,10 +12,10 @@ dotenv.config();
 
 app.get("/activity", async (req, res) => {
   var url =
-    "https://openapi.naver.com/v1/search/local.json?display=3&start=1&sort=random&query=" +
+    "https://openapi.naver.com/v1/search/local.json?display=5&start=1&sort=random&query=" +
     encodeURI(req.query.query);
   //URL 확인
-  console.log("==============================\n" + url);
+  //sconsole.log("==============================\n" + url);
 
   var options = {
     url: url,
