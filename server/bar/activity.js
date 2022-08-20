@@ -15,7 +15,7 @@ app.get("/activity", async (req, res) => {
     "https://openapi.naver.com/v1/search/local.json?display=5&start=1&sort=random&query=" +
     encodeURI(req.query.query);
   //URL 확인
-  //sconsole.log("==============================\n" + url);
+  //console.log("==============================\n" + url);
 
   var options = {
     url: url,
