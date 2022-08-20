@@ -176,8 +176,15 @@ body {
 }
 
 .whiteareafood {
-  height: 100%;
+  height: 1300px;
   background-color: white;
   display: flex;
   flex-direction: column;
+}
+
+.whiteareafood_list {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
 }
