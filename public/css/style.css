@@ -167,16 +167,12 @@ body {
   margin-right: 20px;
 }
 
-.whitearea_map {
-  height: 800px;
+.whitearea {
+  height: 40vh;
   background-color: white;
-}
-
-.whitearea_walk {
-  height: 400px;
   display: flex;
-  background-color: white;
   justify-content: center;
+  padding-top: 80px;
 }
 
 .whitearea_food {
