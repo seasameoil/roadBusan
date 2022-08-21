@@ -1,202 +1,201 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="../../css/style.css" />
-    <script src="../../js/main.js" defer></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
-    />
-    <title>로드뷰산</title>
-  </head>
-  <body>
-    <img src="../../image/background.jpg" id="background" />
-    <header class="top-bar con-min-width">
-      <div class="con mx-auto flex h-full">
-        <a href="/"><img src="../../image/roadbusan1.png" id="logo_sub" /></a>
-        <div class="flex-grow"></div>
-        <nav class="menu-1">
-          <ul class="flex h-full">
-            <li>
-              <a href="#">산책로</a>
-              <div class="con-min-width">
-                <div class="con mx-auto">
-                  <ul class="flex">
-                    <li class="flex-1">
-                      <a href="/walkingtrail/gangseo-gu">강서구</a>
-                      <a href="/walkingtrail/sasang-gu">사상구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/walkingtrail/suyeong-gu">수영구</a>
-                      <a href="/walkingtrail/busanjin-gu">부산진구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/walkingtrail/geumjeong-gu">금정구</a>
-                      <a href="/walkingtrail/dongnae-gu">동래구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/walkingtrail/yeonje-gu">연제구</a>
-                      <a href="/walkingtrail/seo-gu">서구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/walkingtrail/dong-gu">동구</a>
-                      <a href="/walkingtrail/yeongdo-gu">영도구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/walkingtrail/jung-gu">중구</a>
-                      <a href="/walkingtrail/nam-gu">남구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/walkingtrail/haeundae-gu">해운대구</a>
-                      <a href="/walkingtrail/saha-gu">사하구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/walkingtrail/buk-gu">북구</a>
-                      <a href="/walkingtrail/gijang-gu">기장군</a>
-                    </li>
-                  </ul>
-                </div>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <script src="../../js/main.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+  <title>로드뷰산</title>
+</head>
+
+<body>
+  <img src="../../image/background.jpg" id="background" />
+  <header class="top-bar con-min-width">
+    <div class="con mx-auto flex h-full">
+      <a href="/"><img src="../../image/roadbusan1.png" id="logo_sub" /></a>
+      <div class="flex-grow"></div>
+      <nav class="menu-1">
+        <ul class="flex h-full">
+          <li>
+            <a href="#">산책로</a>
+            <div class="con-min-width">
+              <div class="con mx-auto">
+                <ul class="flex">
+                  <li class="flex-1">
+                    <a href="/walkingtrail/gangseo-gu">강서구</a>
+                    <a href="/walkingtrail/sasang-gu">사상구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/walkingtrail/suyeong-gu">수영구</a>
+                    <a href="/walkingtrail/busanjin-gu">부산진구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/walkingtrail/geumjeong-gu">금정구</a>
+                    <a href="/walkingtrail/dongnae-gu">동래구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/walkingtrail/yeonje-gu">연제구</a>
+                    <a href="/walkingtrail/seo-gu">서구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/walkingtrail/dong-gu">동구</a>
+                    <a href="/walkingtrail/yeongdo-gu">영도구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/walkingtrail/jung-gu">중구</a>
+                    <a href="/walkingtrail/nam-gu">남구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/walkingtrail/haeundae-gu">해운대구</a>
+                    <a href="/walkingtrail/saha-gu">사하구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/walkingtrail/buk-gu">북구</a>
+                    <a href="/walkingtrail/gijang-gu">기장군</a>
+                  </li>
+                </ul>
               </div>
-            </li>
-            <li>
-              <a href="#">맛집</a>
-              <div class="con-min-width">
-                <div class="con mx-auto">
-                  <ul class="flex">
-                    <li class="flex-1">
-                      <a href="/restaurant/gangseo-gu">강서구</a>
-                      <a href="/restaurant/sasang-gu">사상구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/restaurant/suyeong-gu">수영구</a>
-                      <a href="/restaurant/busanjin-gu">부산진구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/restaurant/geumjeong-gu">금정구</a>
-                      <a href="/restaurant/dongnae-gu">동래구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/restaurant/yeonje-gu">연제구</a>
-                      <a href="/restaurant/seo-gu">서구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/restaurant/dong-gu">동구</a>
-                      <a href="/restaurant/yeongdo-gu">영도구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/restaurant/jung-gu">중구</a>
-                      <a href="/restaurant/nam-gu">남구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/restaurant/haeundae-gu">해운대구</a>
-                      <a href="/restaurant/saha-gu">사하구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/restaurant/buk-gu">북구</a>
-                      <a href="/restaurant/gijang-gu">기장군</a>
-                    </li>
-                  </ul>
-                </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">맛집</a>
+            <div class="con-min-width">
+              <div class="con mx-auto">
+                <ul class="flex">
+                  <li class="flex-1">
+                    <a href="/restaurant/gangseo-gu">강서구</a>
+                    <a href="/restaurant/sasang-gu">사상구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/restaurant/suyeong-gu">수영구</a>
+                    <a href="/restaurant/busanjin-gu">부산진구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/restaurant/geumjeong-gu">금정구</a>
+                    <a href="/restaurant/dongnae-gu">동래구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/restaurant/yeonje-gu">연제구</a>
+                    <a href="/restaurant/seo-gu">서구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/restaurant/dong-gu">동구</a>
+                    <a href="/restaurant/yeongdo-gu">영도구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/restaurant/jung-gu">중구</a>
+                    <a href="/restaurant/nam-gu">남구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/restaurant/haeundae-gu">해운대구</a>
+                    <a href="/restaurant/saha-gu">사하구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/restaurant/buk-gu">북구</a>
+                    <a href="/restaurant/gijang-gu">기장군</a>
+                  </li>
+                </ul>
               </div>
-            </li>
-            <li>
-              <a href="#">액티비티</a>
-              <div class="con-min-width">
-                <div class="con mx-auto">
-                  <ul class="flex">
-                    <li class="flex-1">
-                      <a href="/activity/gangseo-gu">강서구</a>
-                      <a href="/activity/sasang-gu">사상구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/activity/suyeong-gu">수영구</a>
-                      <a href="/activity/busanjin-gu">부산진구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/activity/geumjeong-gu">금정구</a>
-                      <a href="/activity/dongnae-gu">동래구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/activity/yeonje-gu">연제구</a>
-                      <a href="/activity/seo-gu">서구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/activity/dong-gu">동구</a>
-                      <a href="/activity/yeongdo-gu">영도구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/activity/jung-gu">중구</a>
-                      <a href="/activity/nam-gu">남구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/activity/haeundae-gu">해운대구</a>
-                      <a href="/activity/saha-gu">사하구</a>
-                    </li>
-                    <li class="flex-1">
-                      <a href="/activity/buk-gu">북구</a>
-                      <a href="/activity/gijang-gu">기장군</a>
-                    </li>
-                  </ul>
-                </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">액티비티</a>
+            <div class="con-min-width">
+              <div class="con mx-auto">
+                <ul class="flex">
+                  <li class="flex-1">
+                    <a href="/activity/gangseo-gu">강서구</a>
+                    <a href="/activity/sasang-gu">사상구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/activity/suyeong-gu">수영구</a>
+                    <a href="/activity/busanjin-gu">부산진구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/activity/geumjeong-gu">금정구</a>
+                    <a href="/activity/dongnae-gu">동래구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/activity/yeonje-gu">연제구</a>
+                    <a href="/activity/seo-gu">서구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/activity/dong-gu">동구</a>
+                    <a href="/activity/yeongdo-gu">영도구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/activity/jung-gu">중구</a>
+                    <a href="/activity/nam-gu">남구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/activity/haeundae-gu">해운대구</a>
+                    <a href="/activity/saha-gu">사하구</a>
+                  </li>
+                  <li class="flex-1">
+                    <a href="/activity/buk-gu">북구</a>
+                    <a href="/activity/gijang-gu">기장군</a>
+                  </li>
+                </ul>
               </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <div id="subject">
-      <div class="subject_text">북구 맛집</div>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <div class="whiteareafood">
-      <div id="whiteareafood_firstlist">
-        <img
-          src="https://lh5.googleusercontent.com/p/AF1QipPhm-Y43uL8S67mrp6gxQh6gUzqHc44jkDlsHWr=w114-h114-n-k-no"
-          width="320px"
-          height="280px"
-        />
-        <div class="foodlisttext">
-          <div class="foodlistsubject">더도이종가집돼지국밥 본점</div>
-          <div class="foodlistaddress">부산광역시 북구 의성로 91</div>
-          <div class="foodliststar">
-            <span style="color: red"></span>★</span> 4.1/5</div>
-          <div class="foodlistbutton"><button onclick="location.href='https://www.google.com/maps/place/%EB%8D%94%EB%8F%84%EC%9D%B4%EC%A2%85%EA%B0%80%EC%A7%91%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5+%EB%B3%B8%EC%A0%90/@35.2124863,129.0105896,15z/data=!4m2!3m1!1s0x0:0x2c478c1f6517e3f?sa=X&ved=2ahUKEwiGsa7m8Nb5AhVSTGwGHdaDAkcQ_BJ6BAhHEAU';">상세보기</button></div>
+  </header>
+  <div id="subject">
+    <div class="subject_text">북구 맛집</div>
+  </div>
+  <div class="whiteareafood">
+    <div id="whiteareafood_firstlist">
+      <img src="https://lh5.googleusercontent.com/p/AF1QipPhm-Y43uL8S67mrp6gxQh6gUzqHc44jkDlsHWr=w114-h114-n-k-no"
+        width="320px" height="280px" />
+      <div class="foodlisttext">
+        <div class="foodlistsubject">더도이종가집돼지국밥 본점</div>
+        <div class="foodlistaddress">부산광역시 북구 의성로 91</div>
+        <div class="foodliststar">
+          <span style="color: red">★</span> 4.1/5
         </div>
-      </div>
-      <div class="whiteareafood_list">
-        <img
-          src="https://lh5.googleusercontent.com/p/AF1QipOAYQjKtg93dfjXKmu5LMSnQcSGLWjUx0vLTL6Z=w114-h114-n-k-no"
-          width="320px"
-          height="280px"
-        />
-        <div class="foodlisttext">
-          <div class="foodlistsubject">대박통</div>
-          <div class="foodlistaddress">부산광역시 북구 덕천동 414-35</div>
-          <div class="foodliststar">
-            <span style="color: red"></span>★</span> 4.1/5</div>
-          <div class="foodlistbutton"><button onclick="location.href ='https://www.google.co.kr/maps/place/%EB%8C%80%EB%B0%95%ED%86%B5/data=!4m9!1m2!2m1!1z64yA67CV7Ya1!3m5!1s0x35689537c1861d97:0x601d224871bcf5da!8m2!3d35.2100031!4d129.0095242!15sCgnrjIDrsJXthrVaDCIK64yA67CVIO2GtZIBE2JhcmJlY3VlX3Jlc3RhdXJhbnQ?hl=ko';">상세보기</button></div>
-        </div>
-      </div>
-      <div class="whiteareafood_list">
-        <img
-          src="https://lh5.googleusercontent.com/p/AF1QipP6O6MFw28dpQ6P2YbgCJjdMyMIDcTbDdcIAg1U=w114-h114-n-k-no"
-          width="320px"
-          height="280px"
-        />
-        <div class="foodlisttext">
-          <div class="foodlistsubject">만선참가자미회전문점</div>
-          <div class="foodlistaddress">부산광역시 북구 덕천2동 396-5</div>
-          <div class="foodliststar">
-            <span style="color: red">★</span> 3.9/5
-          </div>
-          <div class="foodlistbutton"><button onclick="location.href ='https://www.google.com/maps/place/%EB%A7%8C%EC%84%A0%EC%B0%B8%EA%B0%80%EC%9E%90%EB%AF%B8%ED%9A%8C%EC%A0%84%EB%AC%B8%EC%A0%90/data=!3m1!4b1!4m5!3m4!1s0x356895485936eafb:0x73ee9c19f46b0f5e!8m2!3d35.2111313!4d129.0061655';">상세보기</button></div>
+        <div class="foodlistbutton"><button
+            onclick="location.href='https://www.google.com/maps/place/%EB%8D%94%EB%8F%84%EC%9D%B4%EC%A2%85%EA%B0%80%EC%A7%91%EB%8F%BC%EC%A7%80%EA%B5%AD%EB%B0%A5+%EB%B3%B8%EC%A0%90/@35.2124863,129.0105896,15z/data=!4m2!3m1!1s0x0:0x2c478c1f6517e3f?sa=X&ved=2ahUKEwiGsa7m8Nb5AhVSTGwGHdaDAkcQ_BJ6BAhHEAU';">상세보기</button>
         </div>
       </div>
     </div>
-    <div id = "background2" height="100px">
+    <div class="whiteareafood_list">
+      <img src="https://lh5.googleusercontent.com/p/AF1QipOAYQjKtg93dfjXKmu5LMSnQcSGLWjUx0vLTL6Z=w114-h114-n-k-no"
+        width="320px" height="280px" />
+      <div class="foodlisttext">
+        <div class="foodlistsubject">대박통</div>
+        <div class="foodlistaddress">부산광역시 북구 덕천동 414-35</div>
+        <div class="foodliststar">
+          <span style="color: red">★</span> 4.1/5
+        </div>
+        <div class="foodlistbutton"><button
+            onclick="location.href ='https://www.google.co.kr/maps/place/%EB%8C%80%EB%B0%95%ED%86%B5/data=!4m9!1m2!2m1!1z64yA67CV7Ya1!3m5!1s0x35689537c1861d97:0x601d224871bcf5da!8m2!3d35.2100031!4d129.0095242!15sCgnrjIDrsJXthrVaDCIK64yA67CVIO2GtZIBE2JhcmJlY3VlX3Jlc3RhdXJhbnQ?hl=ko';">상세보기</button>
+        </div>
+      </div>
     </div>
-  </body>
+    <div class="whiteareafood_list">
+      <img src="https://lh5.googleusercontent.com/p/AF1QipP6O6MFw28dpQ6P2YbgCJjdMyMIDcTbDdcIAg1U=w114-h114-n-k-no"
+        width="320px" height="280px" />
+      <div class="foodlisttext">
+        <div class="foodlistsubject">만선참가자미회전문점</div>
+        <div class="foodlistaddress">부산광역시 북구 덕천2동 396-5</div>
+        <div class="foodliststar">
+          <span style="color: red">★</span> 3.9/5
+        </div>
+        <div class="foodlistbutton"><button
+            onclick="location.href ='https://www.google.com/maps/place/%EB%A7%8C%EC%84%A0%EC%B0%B8%EA%B0%80%EC%9E%90%EB%AF%B8%ED%9A%8C%EC%A0%84%EB%AC%B8%EC%A0%90/data=!3m1!4b1!4m5!3m4!1s0x356895485936eafb:0x73ee9c19f46b0f5e!8m2!3d35.2111313!4d129.0061655';">상세보기</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="background2" height="100px">
+  </div>
+</body>
+
 </html>
