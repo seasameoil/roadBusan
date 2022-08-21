@@ -1,10 +1,13 @@
 html {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 body {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+html > body {
+  font-family: "GmarketSansMedium";
 }
 
 #logo {
@@ -23,7 +26,7 @@ body {
   margin-top: 0.5vh;
 }
 
-#background {
+body > #background {
   background-image: url("../image/background.jpg");
   height: 100vh;
   width: 100vw;
@@ -45,14 +48,23 @@ body {
   z-index: -1;
 }
 #mapdiv {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   transition: all 1500ms ease;
+  width: 60vw;
+  text-align: center;
+  margin: auto;
 }
 
+#map {
+  width: 100%;
+}
+@media screen and (max-width: 1023px) {
+  #mapdiv {
+    transition: all 1500ms ease;
+    width: 80vw;
+    text-align: center;
+    margin: 30vh auto auto auto;
+  }
+}
 .no {
   opacity: 0;
 }
@@ -76,20 +88,12 @@ body {
   font-style: normal;
 }
 
-html > body {
-  font-family: "GmarketSansMedium";
-}
-
 .con {
   width: var(--site-width);
 }
 
 .con-min-width {
   min-width: var(--site-width);
-}
-
-body {
-  background-color: #afafaf;
 }
 
 .top-bar {
